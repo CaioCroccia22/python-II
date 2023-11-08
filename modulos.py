@@ -10,3 +10,8 @@ Isolamento no projeto de software
 
 """
 
+import calc
+print(calc.sum(10, 2))
+print(calc.sub(3, 5))
+print(calc.mult(3, 5))
+print(calc.div(10, 5))
