@@ -28,4 +28,8 @@ Escrever um modulo em python para tratar algumas string que possua as seguintes 
 
 import funcstrings
 
-print(odd("Cachorro"))
+name = input("Digite uma frase: \n")
+
+print(funcstrings.odd(name))
+print(funcstrings.even(name))
+print(funcstrings.reverse(name))
