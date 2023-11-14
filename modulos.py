@@ -36,6 +36,9 @@ print(funcstrings.reverse(name))
 
 """
 Manipulação de módulos builtin
+São modulos nativos do python que ja conseuge resolver algo ao inves de importar um biblioteca externa
+Esses modulos podem ser melhor compreendidos na documentação do python
+
 """
 
 help('modules')
