@@ -33,3 +33,9 @@ name = input("Digite uma frase: \n")
 print(funcstrings.odd(name))
 print(funcstrings.even(name))
 print(funcstrings.reverse(name))
+
+"""
+Manipulação de módulos builtin
+"""
+
+help('modules')
