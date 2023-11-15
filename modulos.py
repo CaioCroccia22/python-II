@@ -44,8 +44,3 @@ Esses modulos podem ser melhor compreendidos na documentação do python
 help('modules')
 
 
-"""
-Módulo OS 
-Tem por objetivo automatizar algumas tarefas do Sistema Operacional utilizando a linguagem python
-"""
-

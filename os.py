@@ -1,5 +1,11 @@
 import os
 
+"""
+Módulo OS 
+Tem por objetivo automatizar algumas tarefas do Sistema Operacional utilizando a linguagem python
+"""
+
+
 # 1 - Consultar funcionalidades do modulo OS
 # help('os')
 
