@@ -10,4 +10,9 @@ import os
 shutdown = input("Deseja desligar o computador? (sim/não):")
 
 def shutdown_computer():
-    os.system('shut')
+    if shutdown == 'sim':
+        os.system("shutdown /s /t 1")
+    if shutdown == 'não':
+        exit()
+
+shutdown_computer()
