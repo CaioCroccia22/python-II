@@ -23,3 +23,4 @@ os.system('systeminfo')
 
 # 6 - Limpar a tela do terminal
 os.system('cls')
+
