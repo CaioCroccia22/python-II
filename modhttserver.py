@@ -15,4 +15,8 @@ Metodo delete - Deleta informações de um servidor
 """
 
 
+"""
+Como iniciar o servidor http: python -m http.server
+Acesso ao servidor pelo IP + :: porta gerada
+"""
 
