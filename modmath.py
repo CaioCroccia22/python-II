@@ -31,3 +31,5 @@ print(mdc)
 print(math.log(10))
 
 
+
+
