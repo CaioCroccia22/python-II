@@ -12,4 +12,6 @@ print(statistics.mean([3, 2, 5, 8, 9]))
 # 2 - Aplicar a mediana 
 print(statistics.median([1, 2, 4, 5, 6, 3, 5, 4]))
 
-# 3 - 
+# 3 - Aplicar a moda
+#valor que mais se repete
+print(statistics.mode([1, 3, 3, 3, 4, 5, 6]))
