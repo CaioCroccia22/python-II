@@ -27,4 +27,18 @@ site = 'site: https://onebitcode.com'
 match = re.search(r'\.', site)
 print(match)
 
-# 3 
+# 3 - buscando uma lista de caracteres dentro de uma frase
+pattern = '[a-m]'
+# [a-m] - significa que é de "a" até "m"
+result = re.findall(pattern, text)
+print(text)
+print(result)
+
+
+# 4 - Verificando o inicio de uma string
+rule = r'^A'
+# ^ - inicio
+phrases = ['A casa está suja', 'O dia está lindo', 'Vamos passear']
+for f in phrases: # Para cada frase que estiver na variavel phrases
+    if re.match(rule, f):#Verifique se cada frase segue a variável regra
+        print(f"Corresponde: {f}")#Se corresponder mostre qual frase=f
