@@ -42,3 +42,11 @@ phrases = ['A casa está suja', 'O dia está lindo', 'Vamos passear']
 for f in phrases: # Para cada frase que estiver na variavel phrases
     if re.match(rule, f):#Verifique se cada frase segue a variável regra
         print(f"Corresponde: {f}")#Se corresponder mostre qual frase=f
+
+# 5 - Verificando o final de uma string
+rule_end = r'!$'
+# $ - cifrão indica o final
+phrase2 = ['Presta atenção!!', 'Você é bonito']
+for f in phrase2:
+    if re.search(rule_end, f):
+        print(f"O ponto de exclamação esta no final de: {f}")
