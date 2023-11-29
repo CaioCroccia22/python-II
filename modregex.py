@@ -19,3 +19,12 @@ match = re.search(r'pessoas em programadores',text) #Procure a frase para mim na
 
 print(f'indice inicial {match.start()}')
 print(f'indice final {match.end()}')
+
+
+# 2 - Buscando o indice que tem um ponto
+site = 'site: https://onebitcode.com'
+# match = re.search(r'.', site)
+match = re.search(r'\.', site)
+print(match)
+
+# 3 
