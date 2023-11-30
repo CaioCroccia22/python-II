@@ -7,16 +7,25 @@ contém apenas um determinado conjunto de caracteres (neste caso, a-z, A-Z e 0-9
 
 import re
 
-text = input("Digite a string que deseja analisar: \n")
-pattern1 = '[a-z]'
-pattern2 = '[A-Z]'
-pattern3 = '[0-9]'
-for t in text:
-    if re.findall(pattern1, text):
-     print('ok')
-    elif re.findall(pattern2, text):
-     print('ok')
-    elif re.findall(pattern2, text):
-     print('ok')
-    else:
-      print('não tem!')
+# text = input("Digite a string que deseja analisar: \n")
+# pattern1 = '[a-z]'
+# pattern2 = '[A-Z]'
+# pattern3 = '[0-9]'
+# for t in text:
+#     if re.findall(pattern1, text):
+#      print('ok')
+#     elif re.findall(pattern2, text):
+#      print('ok')
+#     elif re.findall(pattern2, text):
+#      print('ok')
+#     else:
+#       print('não tem!')
+
+# Correção
+
+def check_car(string):
+  rule = re.compile(r'[^a-zA-Z0-9]')
+  string = rule.search(string)
+  return not bool(string)
+
+print(check_car("DNISDNJSDNSDLJNSDJK"))
