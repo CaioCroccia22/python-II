@@ -29,3 +29,5 @@ def check_car(string):
   return not bool(string)
 
 print(check_car("DNISDNJSDNSDLJNSDJK"))
+
+print(check_car('###'))
