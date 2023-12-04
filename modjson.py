@@ -16,3 +16,8 @@ import json
 person = '{"name": "Caio", "languages":["Python", "Javascript"]}'
 person_dicti = json.loads(person)
 print(person_dicti)
+
+# 2 - Convertendo dicionário para json
+person_json = json.dumps(person_dicti)#dumps - serializa um objeto python para uma string json
+print(person_json)
+print(type(person_json))
