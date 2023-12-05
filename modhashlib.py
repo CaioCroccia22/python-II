@@ -31,3 +31,5 @@ print(algorithm.hexdigest())#Texto criptografado em hexadecimal
 md5 = hashlib.md5()
 md5.update(message)
 print(md5.hexdigest())
+
+#Quando se trata de algoritmo trabalhar com o sha256 em diante
