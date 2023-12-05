@@ -18,3 +18,18 @@ print(g1)
 print(g2)
 print(g3)
 
+# 3 - Ordenando dicionários
+students = {"Pedro":23, "Ana": 21, "Ronaldo": 26, "Janaina": 25}
+
+order = sorted(students.items(), key=itemgetter(0))
+print(students)
+print(order)
+
+
+# 4 - Utilizando fila com ambas extremidades
+deq = deque([20, 40, 60, 80])
+deq.appendleft(10) #Adiciona o da esquerda
+print(deq)
+deq.popleft()#Remove o da esquerda
+deq.pop() #Remove do final
+print(deq)
