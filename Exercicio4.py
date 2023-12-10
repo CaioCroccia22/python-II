@@ -12,18 +12,19 @@ usuário tente acertar o número. Algumas sugestões para o programa:
 """
 import random
 
-number = int
 
 def get_number():
-    list_number = [random.randint(1, 100) for i in range(5)]
+    list_number = [random.randint(1, 10) for i in range(10)]
     print(list_number)
     for i in list_number:
         number = random.choice(list_number)
         print(number)
+        print("\n===Advinhe o número de 1 a 10====\n")
         number_user = int(input("Digite o número que voce pensa que é: \n"))
-        print(number)
         if number == number_user:
             print("Parabens voce acertou o número!!")
+            break
+
         
         
 get_number()
