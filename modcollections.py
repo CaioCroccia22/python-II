@@ -33,3 +33,4 @@ print(deq)
 deq.popleft()#Remove o da esquerda
 deq.pop() #Remove do final
 print(deq)
+
