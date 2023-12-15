@@ -8,3 +8,15 @@ A instalação é feita via linha de comando
 PIP vem instalado na distribuição python
 
 Repositorio: Pypi.org
+
+Ao instalar um biblioteca especifica ela é instalada de forma global
+Entretando é possível isolar a biblioteca que será isolada em um projeto
+
+1) Abrir terminal
+Modulo venv
+python -m venv .venv
+
+2) Na pasta Lib estam as bibliotecas
+Quando crio um ambiente virtual de desenvolvimento ele separou
+as bibliotecas globais e não incluiu no seu projeto
+
